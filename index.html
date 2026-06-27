@@ -43,7 +43,26 @@
         .iconos-servicios i { font-size: 32px; color: var(--verde); }
         .btn-principal { display: inline-block; background: var(--verde); color: black; padding: 15px 30px; border-radius:10px; text-decoration:none; font-weight:bold; margin-top:25px; margin-right:10px; }
         .btn-secundario { display: inline-block; border: 2px solid var(--verde); color: var(--verde); padding: 15px 30px; border-radius:10px; text-decoration:none; font-weight:bold; margin-top:25px; }
+.navbar-brand{
 
+font-size:32px;
+font-weight:900;
+color:#9FEA31 !important;
+
+}
+
+.navbar-brand img{
+
+height:45px;
+transition:.3s;
+
+}
+
+.navbar-brand:hover img{
+
+transform:rotate(-5deg) scale(1.08);
+
+}
         /* SECCIONES Y ESTILOS */
         .titulo { text-align:center; font-size:50px; font-weight:900; margin-top:80px; text-transform:uppercase; }
         .subrayado { width:80px; height:4px; background:var(--verde); margin:15px auto 50px auto; }
@@ -62,7 +81,15 @@
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="#">3DR</a>
+  <a class="navbar-brand d-flex align-items-center" href="index.html">
+
+<img src="logo.png"
+alt="3DR Soluciones"
+style="height:45px; margin-right:10px;">
+
+<span>3DR</span>
+
+</a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
             <span class="navbar-toggler-icon"></span>
         </button>
